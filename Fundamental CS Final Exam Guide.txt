@@ -1,0 +1,57 @@
+FUNDAMENTAL COMPUTER SCIENCE FINAL EXAM GUIDE
+
+DISCLAIMER:
+    ** Information about the exam in this guide may not be accurate. Only studying this sheet will not make you pass **
+    ** If you have skill issue, you will still fail **
+
+-----------------------------------------------------------------------------------------------------
+
+Section 1 (5 questions): Debugging a code (VERY HARD)
+
+    - Look out for missing symbols such as:
+        " ( ) : = ,
+        (not specifically these symbols/bugs)
+
+    - If you couldn't find missing symbols/bugs, CAREFULLY copy the code into your codespace and run it, and error message will show up
+
+    - After you found the missing symbol, write down which line it is in
+
+-----------------------------------------------------------------------------------------------------
+
+Section 2 (2 codes, 5-6 questions per code): Explaining a python code (writing + multiple choices)
+
+    - Explain a specific line of code (really need understanding to do this part)
+
+-----------------------------------------------------------------------------------------------------
+
+Section 3 (1 Question): Creating a list
+
+    - An image of a table will be given
+
+    - Create a list with multiple variables in an item following that table
+
+    - Usually follow this pattern:
+        [
+        {"x": "...", "x2": "...", "x3": "..."},
+        {"x": "...", "x2": "...", "x3": "..."},
+        {"x": "...", "x2": "...", "x3": "..."},
+        ]
+        (x are usually the same)
+
+-----------------------------------------------------------------------------------------------------
+
+Section 4 (1 Question): Regular Expression Coding (Checking pattern of something)
+
+    - 2 conditions will be given for you to write a code expecting those conditions
+
+    - Most parts of the code will be done for you, only do the part labelled #TODO
+
+    - These functions will be useful:
+        str.split() - Split a string variable into two variables
+        str.startswith() - Check if the string starts with a specific part
+        str.endswith() - Check if the string ends with a specific part
+        (These functions need to be adapted to follow the exam question)
+
+        More functions and usage can be found on https://docs.python.org/3/library/stdtypes.html
+
+    - This lecture will be useful: https://cs50.harvard.edu/python/2022/weeks/7/ (Watch if you want to pass the exam)
